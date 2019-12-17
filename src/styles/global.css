@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(24, 28, 52, 0.9),
+    rgba(36, 47, 106, 0.7)
+  );
+  color: white;
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}

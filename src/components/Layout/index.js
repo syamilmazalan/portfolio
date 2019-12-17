@@ -5,7 +5,8 @@ import { Header } from "./Header"
 import { MenuBtn, BtnLine1, BtnLine2, BtnLine3 } from "./HamburgerBtn"
 import { Menu, MenuBranding, MenuNav } from "./Menu"
 import { NavItem, NavLink } from "./Nav"
-import { GlobalStyle } from "../../styles"
+
+import "../../styles/global.css"
 
 const Layout = ({ children }) => {
   const [showMenu, setShowMenu] = useState(false)
@@ -17,7 +18,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header>
-        <GlobalStyle />
         <MenuBtn onClick={toggleMenu} show={showMenu}>
           <BtnLine1 show={showMenu}></BtnLine1>
           <BtnLine2 show={showMenu}></BtnLine2>
