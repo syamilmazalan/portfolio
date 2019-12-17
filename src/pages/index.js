@@ -24,7 +24,7 @@ const IndexPage = () => (
         <a href="https://facebook.com/syamil.mazalan" target="_blank">
           <FaFacebook style={{ width: "2.5rem", height: "2.5rem" }} />
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/syamilmazalan" target="_blank">
           <FaLinkedin style={{ width: "2.5rem", height: "2.5rem" }} />
         </a>
         <a href="https://github.com/syamilmazalan" target="_blank">
