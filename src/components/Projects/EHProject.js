@@ -82,15 +82,12 @@ const EHProject = ({ xs, sm, md }) => {
                   fluid={data.embun_homes_tn.childImageSharp.fluid}
                   alt="Embun Homes overview"
                 />
-                <p>Overview</p>
               </StyledDot>
               <StyledDot slide={1}>
                 <img src={gatsby} alt="Gatsby logo" className="gatsby-logo" />
-                <p>Guest</p>
               </StyledDot>
               <StyledDot slide={2}>
                 <img src={react} alt="React logo" className="w-75" />
-                <p>Admin</p>
               </StyledDot>
               <StyledDot slide={3}>
                 <img
@@ -98,7 +95,6 @@ const EHProject = ({ xs, sm, md }) => {
                   alt="Laravel logo"
                   className="laravel-logo"
                 />
-                <p>API</p>
               </StyledDot>
             </DotGroup>
           </Col>

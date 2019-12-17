@@ -6,10 +6,10 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import { Main } from "../components/Main"
 import { H1, H2, H3 } from "../components/Typography"
-import { BioImage, Bio, Button, LanguagesSection } from "../components/About"
+import { Bio, Button, LanguagesSection } from "../components/About"
 
 import { secondary_color } from "../styles"
-import bio_pic from "../images/profilepic.jpg"
+
 import resume from "../pdf/syamil-resume-2019.pdf"
 
 const AboutPage = () => {
@@ -20,20 +20,21 @@ const AboutPage = () => {
         <H1 className="mt-5">
           About <span style={{ color: secondary_color }}>Me</span>
         </H1>
-        <Row xs="1" lg="2">
-          <Col>
-            <BioImage src={bio_pic} alt="Profile picture" />
-          </Col>
+        <Row>
           <Col>
             <Bio>
               <p className="font-weight-bold">
                 Hi, my name is{" "}
                 <span style={{ color: secondary_color }}>Syamil</span>.
               </p>
-              <p>I am always excited to learn new things.</p>
               <p>
-                The best thing about programming is that there is always
-                something else to learn!
+                I am always excited to learn new things, which makes programming
+                a natural interest of mine. I had always been fascinated with
+                computers - rivaled only by my interest in natural sciences. In
+                college the latter won as I completed by Bachelor's Degree in
+                Biology. However, I turned back to programming when someone
+                asked for my help with their website - and I haven't turned back
+                since.
               </p>
               <Button href={resume} target="_blank">
                 Download Resume
