@@ -4,7 +4,8 @@ import { readableColor, rgba } from "polished"
 import { primary_color } from "./variables"
 
 export const GlobalStyle = createGlobalStyle`
-  * {
+  &&& {
+    * {
     box-sizing: border-box;
   }
 
@@ -23,5 +24,6 @@ export const GlobalStyle = createGlobalStyle`
   a {
     color: #fff;
     text-decoration: none;
+  }
   }
 `
