@@ -18,16 +18,16 @@ const IndexPage = () => (
       </H1>
       <H2>Web Developer & Programmer</H2>
       <Icons>
-        <a href="#">
+        <a href="https://twitter.com/syamilmazalan" target="_blank">
           <FaTwitter style={{ width: "2.5rem", height: "2.5rem" }} />
         </a>
-        <a href="#">
+        <a href="https://facebook.com/syamil.mazalan" target="_blank">
           <FaFacebook style={{ width: "2.5rem", height: "2.5rem" }} />
         </a>
         <a href="#">
           <FaLinkedin style={{ width: "2.5rem", height: "2.5rem" }} />
         </a>
-        <a href="#">
+        <a href="https://github.com/syamilmazalan" target="_blank">
           <FaGithub style={{ width: "2.5rem", height: "2.5rem" }} />
         </a>
       </Icons>

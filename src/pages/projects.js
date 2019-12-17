@@ -1,27 +1,22 @@
 import React from "react"
+import "bootstrap/dist/css/bootstrap.css"
 
 import Layout from "../components/Layout"
-import { Main } from "../components/Main"
-import { H1, H2 } from "../components/Typography"
-import { Projects } from "../components/Work"
+import EHProject from "../components/Projects/EHProject"
+import { MainProjects } from "../components/Main"
+import { H1 } from "../components/Typography"
+
 import { secondary_color } from "../styles"
 
-const WorkPage = () => (
+const ProjectsPage = () => (
   <Layout>
-    <Main>
-      <H1 large>
-        My <span style={{ color: secondary_color }}>Work</span>
+    <MainProjects>
+      <H1 className="my-5">
+        My <span style={{ color: secondary_color }}>Projects</span>
       </H1>
-      <H2 small>Check out some of my projects...</H2>
-      <Projects>
-        <div>
-          <a href="#">
-            <img src="" alt="Project1" />
-          </a>
-        </div>
-      </Projects>
-    </Main>
+      <EHProject />
+    </MainProjects>
   </Layout>
 )
 
-export default WorkPage
+export default ProjectsPage

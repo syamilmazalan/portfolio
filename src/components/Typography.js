@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { secondary_color } from "../styles"
 
 const heading = `
   margin: 0;
@@ -16,7 +17,7 @@ export const H1 = styled.h1`
     font-size: ${props => !props.home && "4rem"};
   }
 
-  @media (max-width: 500px) {
+  @media (max-width: 514px) {
     font-size: ${props => (props.home ? "4rem" : "3rem")};
   }
 `
@@ -41,4 +42,36 @@ export const H3 = styled.h3`
   margin-bottom: ${props => props.small && "2rem"};
   padding: ${props => props.small && "0.2rem 1rem"};
   font-weight: ${props => props.bold && "bold"};
+`
+
+export const P = styled.p`
+  @media (max-width: 460px) {
+    font-size: 1.5rem;
+  }
+`
+
+export const ContactHeader = styled(H1)`
+  margin-top: 3rem;
+
+  @media screen and (max-width: 514px) {
+    margin-top: 5rem;
+  }
+  @media screen and (max-width: 340px) {
+    font-size: 2rem;
+  }
+`
+
+export const ContactText = styled(P)`
+  font-size: 2rem;
+  margin-top: 4rem;
+`
+
+export const EmailText = styled(P)`
+  color: ${secondary_color};
+  margin: 2rem 0 2rem 2rem;
+  font-size: 2rem;
+
+  @media screen and (max-width: 340px) {
+    margin: 2rem 0;
+  }
 `
