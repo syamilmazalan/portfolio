@@ -19,8 +19,9 @@ export const NavLink = styled(Link)`
   font-weight: 300;
   color: ${readableColor(primary_color)};
   text-decoration: none;
-  ${easeOut}
+  ${easeOut};
   &:hover {
     color: ${secondary_color};
+    text-decoration: none;
   }
 `
